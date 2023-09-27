@@ -5,4 +5,4 @@ Colaboradores
 Coloque seu nome abaixo se você é um dos colaboradores do repositório:
 
 * Allamy Monteiro (@Allamymp, dono)
-* NOME SOBRENOME (@login)
+* Ramide Dantas (@ramidedantas)
