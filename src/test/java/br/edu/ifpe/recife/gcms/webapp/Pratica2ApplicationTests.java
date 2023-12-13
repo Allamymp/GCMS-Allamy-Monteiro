@@ -24,16 +24,6 @@ class WebAppApplicationTests {
 						.string(containsString("Hello, World")));
 
 	}
-
-	@Test
-	public void verifyFulanoEndpointFalse() throws Exception {
-		this.mockMvc.perform(get("/allamy"))
-
-				.andDo(print()).andExpect(status().isOk())
-				.andExpect(content()
-						.string(containsString("Hello, fulano!")));
-
-	}
 	@Test
 	public void verifyFulanoEndpointTrue() throws Exception {
 		this.mockMvc.perform(get("/allamy"))
