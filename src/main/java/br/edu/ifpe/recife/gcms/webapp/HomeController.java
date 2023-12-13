@@ -15,11 +15,9 @@ public class HomeController {
     public @ResponseBody String greetingFulano() {
         return "Helloo, Allamy!";
     }
-<<<<<<< HEAD
 
     @RequestMapping("/allamy-hotfix")
     public @ResponseBody String greetingHotfix() {
         return "Helloo, hotfix!";
-=======
- 
-}
+
+}}
