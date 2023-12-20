@@ -33,4 +33,13 @@ class WebAppApplicationTests {
 						.string(containsString("Hello, Allamy!")));
 
 	}
+	@Test
+	public void breakeBuild() throws Exception {
+		this.mockMvc.perform(get("/allamy"))
+
+				.andDo(print()).andExpect(status().isOk())
+				.andExpect(content()
+						.string(containsString("Hello, não é allamy!")));
+
+	}
 }
