@@ -3,6 +3,6 @@
 public Class BuildBraker(){
 
 
-  private String  buildBraker = 10;
+  private Boolean  buildBraker = 10;
 
 }
