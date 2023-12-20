@@ -7,6 +7,8 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class Pratica2Application {
 
 	public static void main(String[] args) {
+
+		BuildBraker build = new BuildBreaker(10);
 		SpringApplication.run(Pratica2Application.class, args);
 	}
 
