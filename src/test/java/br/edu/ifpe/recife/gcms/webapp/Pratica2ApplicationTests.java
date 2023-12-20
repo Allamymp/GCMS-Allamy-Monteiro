@@ -21,7 +21,7 @@ class WebAppApplicationTests {
 
 				.andDo(print()).andExpect(status().isOk())
 				.andExpect(content()
-						.string(containsString("Hello, World")));
+						.string(containsString("Helloo, World")));
 
 	}
 	@Test
@@ -30,7 +30,7 @@ class WebAppApplicationTests {
 
 				.andDo(print()).andExpect(status().isOk())
 				.andExpect(content()
-						.string(containsString("Hello, Allamy!")));
+						.string(containsString("Helloo, Allamy!")));
 
 	}
 	/*@Test
